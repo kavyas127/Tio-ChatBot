@@ -15,7 +15,6 @@ body {
 }
 
 .header {
-    background-color: rgba(17, 35, 90, 0.075);
     height: 10vh;
     width: 100%;
     display: flex;
