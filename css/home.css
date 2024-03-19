@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    background-color: #B7C9F2;
+    background-color: #11235A;
     height: 10vh;
     width: 100%;
     display: flex;
@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-    padding: 0 4rem;
+    padding: 0 3rem;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -47,13 +47,15 @@ body {
 }
 
 .first-page{
-    background-color: #B7C9F2;
+    background-color: #11235A;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .second-page{
@@ -65,7 +67,61 @@ body {
 }
 
 .bgm-image{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     opacity: 0.3;
+    display: flex;
+    position: relative;
+}
+
+.first-wrapper{
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.first-page-title{
+    margin: 0;
+    padding: 0;
+    font-family: brasika;
+    color: white;
+    font-weight: 150;
+    letter-spacing: 0.15rem;
+    font-size: 3rem;
+}
+
+.first-page-desc{
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: fit-content;
+    width: 69vw;
+    font-size: 1.25rem;
+    font-family: ptserif;
+    text-align: center;
+}
+
+.chat{
+    transform: translateY(20%);
+    font-family: ptserif;
+    font-size: 1.25rem;
+    display: flex;
+    width: 12vw;
+    height: 7vh;
+    border-radius: 10rem;
+    align-items: center;
+    justify-content: center;
+    background-color:white; 
+    color: #11235A;
+    font-weight: bolder;
+}
+
+.chat:hover{
+    background-color: #EEF5FF; 
 }
