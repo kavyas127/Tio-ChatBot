@@ -1,36 +1,71 @@
 @font-face {
-    font-family: noot;
-    src: url(fonts/noot.ttf);
+    font-family: brasika;
+    src: url(../fonts/BrasikaDisplay.ttf);
 }
 
-body{
+@font-face {
+    font-family: ptserif;
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+body {
     padding: 0;
     margin: 0;
-    overflow-x: 0;
+    overflow-x: hidden;
 }
 
-.header{
-    background-color: aqua;
+.header {
+    background-color: #B7C9F2;
     height: 10vh;
     width: 100%;
     display: flex;
     position: fixed;
     justify-content: space-between;
+    font-size: 1.15rem;
+    z-index: 100;
 }
 
-.logo{
-    padding: 0 2rem ;
+.logo {
+    padding: 0 4rem;
     justify-content: center;
     align-items: center;
     display: flex;
-    font-family: noot;
+    font-family: brasika;
+    font-size: 2rem;
+    color: white;
 }
 
-.header-elements{
-    padding: 0 2rem ;
+.header-elements {
+    padding: 0 3rem;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
-    column-gap: 2rem;
+    column-gap: 3rem;
+    color: white;
+    font-family: ptserif;
+}
+
+.first-page{
+    background-color: #B7C9F2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+
+.second-page{
+    width: 100vw;
+    height: 100vh;
+    color: bisque;
+    position: relative;
+    display: flex;
+}
+
+.bgm-image{
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
 }
