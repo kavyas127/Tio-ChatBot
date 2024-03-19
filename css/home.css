@@ -45,7 +45,7 @@ body {
     font-family: ptserif;
 }
 
-.first-page{
+.first-page {
     background-color: #11235A;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,15 +57,7 @@ body {
     align-items: center;
 }
 
-.second-page{
-    width: 100vw;
-    height: 100vh;
-    color: bisque;
-    position: relative;
-    display: flex;
-}
-
-.bgm-image{
+.bgm-image {
     height: 100vh;
     width: 100vw;
     opacity: 0.3;
@@ -73,7 +65,7 @@ body {
     position: relative;
 }
 
-.first-wrapper{
+.first-wrapper {
     height: fit-content;
     width: fit-content;
     align-items: center;
@@ -85,7 +77,7 @@ body {
     row-gap: 1rem;
 }
 
-.first-page-title{
+.first-page-title {
     margin: 0;
     padding: 0;
     font-family: brasika;
@@ -95,7 +87,7 @@ body {
     font-size: 3rem;
 }
 
-.first-page-desc{
+.first-page-desc {
     margin: 0;
     padding: 0;
     color: white;
@@ -106,7 +98,7 @@ body {
     text-align: center;
 }
 
-.chat{
+.chat {
     transform: translateY(20%);
     font-family: ptserif;
     font-size: 1.25rem;
@@ -116,11 +108,86 @@ body {
     border-radius: 10rem;
     align-items: center;
     justify-content: center;
-    background-color:white; 
+    background-color: white;
     color: #11235A;
     font-weight: bolder;
 }
 
-.chat:hover{
-    background-color: #EEF5FF; 
+.chat:hover {
+    background-color: #EEF5FF;
+}
+
+.second-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #EEF5FF;
+}
+
+.why-tio-title {
+    transform: translateY(4.35rem);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page-title {
+    padding: 0;
+    margin: 0;
+    color: #11235A;
+    display: flex;
+    position: relative;
+    font-family: brasika;
+}
+
+.second-wrapper {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+}
+
+.story {
+    background-color: #11235A;
+    height: 100%;
+    width: 33.33%;
+}
+
+.mission {
+    background-color: #EEF5FF;
+    height: 100%;
+    width: 33.33%;
+}
+
+.vision {
+    background-color: #11235A;
+    height: 100%;
+    width: 33.33%;
+}
+
+.story-title{
+    font-family: brasika;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 150;
+}
+
+.mission-title{
+    font-family: brasika;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: #11235A;
+    font-weight: 150;
 }
