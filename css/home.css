@@ -249,15 +249,15 @@ body {
     border-radius: 10rem;
     align-items: center;
     justify-content: center;
-    background-color: white;
-    color: #11235A;
+    background-color: #11235A;
+    color: white;
     font-weight: bolder;
 }
 
 .try-tio-second:hover{
-    background-color: #11235A;
-    color: white;
-    border-color: #acbbe8;
+    background-color: white;
+    color: #11235A;
+    border-color: #11235A;
     cursor: pointer;
 }
 
