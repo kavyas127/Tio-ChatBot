@@ -114,7 +114,10 @@ body {
 }
 
 .chat:hover {
-    background-color: #EEF5FF;
+    background-color: #365486;
+    color: white;
+    border-color: white;
+    cursor: pointer;
 }
 
 .second-page {
@@ -228,11 +231,92 @@ body {
     font-weight: 150;
 }
 
+.button-div-second{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+
+.try-tio-second{
+    font-family: ptserif;
+    font-size: 1rem;
+    display: flex;
+    position: relative;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10rem;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #11235A;
+    font-weight: bolder;
+}
+
+.try-tio-second:hover{
+    background-color: #11235A;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
 .third-page{
     width: 100vw;
     height: 100vh;
     position: relative;
     display: flex;
+    flex-direction: row;
+}
+
+.third-left{
+    height: 100vh;
+    width: 40vw;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+.third-right{
+    height: 100vh;
+    width: 60vw;
+    background-color: white;
+    position: relative;
+    display: flex;
     flex-direction: column;
-    row-gap: 10px;
+}
+
+.third-wrapper{
+    top: 4.5rem;
+    left: 6rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    position: relative;
+}
+
+.right-title{
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 4.5rem;
+    font-family: brasika;
+    display: flex;
+    align-items: center;
+    color: #11235A;
+    font-weight: 150;
+}
+
+.right-desc{
+    width: 47vw;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    color: #11235A;
+    font-size: 1rem;
+    font-family: ptserif;
+    font-weight: 600;
 }
