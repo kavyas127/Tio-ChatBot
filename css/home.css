@@ -120,12 +120,11 @@ body {
 .second-page {
     width: 100vw;
     height: 100vh;
-    background-color: white;
     position: relative;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    background-color: #EEF5FF;
+    background-color: white;
 }
 
 .why-tio-title {
@@ -154,22 +153,59 @@ body {
     height: 80%;
 }
 
-.story {
+.story, .vision {
     background-color: #11235A;
-    height: 100%;
+    height: 85%;
     width: 33.33%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-regular, .fa-solid{
+    color: white;
+    font-size: 6rem;
+}
+
+.fa-bullseye{
+    font-size: 6rem;
+    color: #11235A;
+}
+
+.story-desc{
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: fit-content;
+    width: 27vw;
+    font-size: 1rem;
+    font-family: ptserif;
+    text-align: center;
+}
+
+.mission-desc{
+    margin: 0;
+    padding: 0;
+    color: #11235A;
+    height: fit-content;
+    width: 27vw;
+    font-size: 1rem;
+    font-family: ptserif;
+    text-align: center;
+    font-weight: 600;
 }
 
 .mission {
-    background-color: #EEF5FF;
-    height: 100%;
+    background-color: white;
+    height: 85%;
     width: 33.33%;
-}
-
-.vision {
-    background-color: #11235A;
-    height: 100%;
-    width: 33.33%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .story-title{
@@ -190,4 +226,13 @@ body {
     align-items: center;
     color: #11235A;
     font-weight: 150;
+}
+
+.third-page{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
